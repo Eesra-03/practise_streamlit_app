@@ -1,7 +1,11 @@
 import streamlit as st
 
-st.title("📄 About This App")
-st.write("""
-This is a dummy second page in a multi-page Streamlit project.
-Feel free to extend it as needed!
-""")
+st.set_page_config(page_title="Dummy Streamlit App", layout="wide")
+
+st.title(" Dummy Streamlit App")
+st.write("Welcome! This is a sample project structure for Streamlit.")
+
+name = st.text_input("Enter your name")
+
+if st.button("Submit"):
+    st.success(f"Hello {name}, this is your dummy Streamlit project!")
