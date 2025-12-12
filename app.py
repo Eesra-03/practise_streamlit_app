@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Dummy Streamlit App", layout="wide")
+st.set_page_config(page_title="Dummy Streamlit Application", layout="wide")
 
 st.title(" Dummy Streamlit App")
 st.write("Welcome! This is a sample project structure for Streamlit.")
